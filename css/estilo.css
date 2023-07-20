@@ -15,7 +15,7 @@
     padding: 0;
  }
 #menu-h ul li{
-    display:line;
+    display:inline;
 
 }
 #menu-h ul li a{
