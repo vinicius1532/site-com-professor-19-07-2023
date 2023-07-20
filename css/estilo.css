@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Georgia, sans-serif;
+    box-sizing: border-box;
+}
+ /* colocando menu na horizontal com css */
+
+ #menu-h{   
+    background-color: rgb(0, 0, 0);
+ }
+
+ #menu-h ul{
+    max-width: 80%;
+    padding: 0;
+ }
+#menu-h ul li{
+    display:line;
+
+}
+#menu-h ul li a{
+    color: #fff;
+    padding: 15px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background .8s;
+}
+#menu-h ul li a:hover{
+    background-color: rgb(4, 34, 202);
+}
