@@ -26,5 +26,49 @@
     transition: background .8s;
 }
 #menu-h ul li a:hover{
-    background-color: rgb(4, 34, 202);
+    background-color: #156dc0;
 }
+
+#menu-h  ul li:last-child a{
+    float:right;
+    background-color: #156dc0;
+}
+/* CSS Banner (imagem de fundo na minha pagina) */
+.text-banner{
+    text-align: center;
+    position: absolute; /* (pra ele ficar num só lugar) */
+    top:50%;
+    left:50%;
+    color: #fff;
+
+}
+body,html{
+    height:100%;
+}
+/* Css para imagens pequenas */
+.column{
+    float: left;
+    width: 25%;
+    padding: 100px 100px;
+    text-align: center; 
+}
+
+.column img{
+    width: 350px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+/* CSS IMG */
+.banner{
+    background-image: url(../img/Banner2.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
